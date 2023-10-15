@@ -1,3 +1,5 @@
+/* GENERAL */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
@@ -7,7 +9,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(241, 230, 230);
 }
 
 html {
@@ -176,8 +177,7 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin-right: 10rem !important;
-  margin-bottom: 30rem !important;
+  margin: auto 0;
 }
 
 .section__text {
@@ -201,7 +201,6 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  color: rgb(199, 186, 116);
 }
 
 #socials-container {
